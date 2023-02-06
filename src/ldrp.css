@@ -1,0 +1,101 @@
+.footer{
+    background: linear-gradient(112.49deg, #01204C 2.86%, #1A6CE0 87.34%);
+transform: matrix(1, 0, 0, 0, 0);
+}
+
+.footerin{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footermid,.footerstart,.footerend,.reachus{
+color: white;
+font-family: Work Sans;
+font-size: 20px;
+font-weight: 400;
+line-height: 40px;
+letter-spacing: 0px;
+text-align: left;
+
+}
+.reachus>h1{
+ 
+    position: relative;
+    font-weight: 600;
+    left: 13%;   
+    margin-bottom: 7%;
+}
+.social{
+    display: flex;
+    justify-content: center;
+    gap: 9%;
+    margin: 7% 2%;
+}
+.fb{
+    background: radial-gradient(81.69% 81.69% at 74.43% 22.04%, #1583EB 20%, #0A2A75 100%);
+}
+.insta{
+    background: radial-gradient(124.96% 124.96% at 83.96% 5.25%, #FCCB62 20%, #ED9473 34%, #DF6183 49%, #D7418E 60%, #D43692 66%, #6C48E0 100%);
+}
+.yt{
+    background: radial-gradient(103.24% 103.24% at 83.17% 4.81%, #FF4747 20%, #A3071B 84%);
+}
+.linkedin{
+    background: radial-gradient(109.53% 109.53% at 88.88% 4.75%, #33C5FF 20%, #3388FF 84%, #33A3FF 100%);
+}
+.social>a{
+    color: white;
+}
+.aboutheads{
+    font-family: Work Sans;
+  
+    font-weight: 500;
+  
+    letter-spacing: 0px;
+    text-align: left;
+    
+}
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.featurehead{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 35px;
+color: #1B6CE1;
+
+}
+.table{
+     border: 1px solid #A1A1A1;
+  }
+  .table>th{
+            color:#1B6CE1 ;
+  }
+  .mca{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .mcapara{
+    display: flex;
+    margin-left: 2%;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 57px;
+    color: #373737;
+  }
+.maincont{
+    margin: 4%;
+}
+.nccimges{
+transform: translateX(10%);
+transition:all .5s ease;
+}
